@@ -13,6 +13,7 @@ function addItem(event) {
 }
 
 var getItems = () => {
+  
   db.collection("todo-items").onSnapshot((snapshot) => {
     console.log(snapshot);
     let items = [];
