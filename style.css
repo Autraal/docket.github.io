@@ -93,18 +93,17 @@ align-items: center;
     visibility: hidden;
 }
 
-
-.check-mark:hover , .check-mark.checked{
+.check-mark.checked{
     background: linear-gradient( #55ddff 10% , #c068f3 100%);
 }
 
-.check-mark:hover img, .check-mark.checked img{
+.check-mark.checked img{
     visibility:visible ;
 }
 
 .todo-text.checked{
     text-decoration: line-through;
-    color: hsl(235, 90% ,11%);
+    color: #c068f3;
     
 }
 
@@ -205,8 +204,13 @@ border-color: hsl(235, 90% ,11%);
 
 
 .items-clear{
+   
     cursor: pointer;
     text-align:end ;
-}
+    width: auto;
+    color: #394cf1;
+    box-shadow: 2px 0px 0px 9px #394cf1;
+    border-radius: 30px;
 
+}
 
